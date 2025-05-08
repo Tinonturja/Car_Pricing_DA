@@ -1,0 +1,50 @@
+{
+    "missing_values": {
+        "car_ID": 0,
+        "symboling": 0,
+        "CarName": 0,
+        "fueltype": 0,
+        "aspiration": 0,
+        "doornumber": 0,
+        "carbody": 0,
+        "drivewheel": 0,
+        "enginelocation": 0,
+        "wheelbase": 0,
+        "carlength": 0,
+        "carwidth": 0,
+        "carheight": 0,
+        "curbweight": 0,
+        "enginetype": 0,
+        "cylindernumber": 0,
+        "enginesize": 0,
+        "fuelsystem": 0,
+        "boreratio": 0,
+        "stroke": 0,
+        "compressionratio": 0,
+        "horsepower": 0,
+        "peakrpm": 0,
+        "citympg": 0,
+        "highwaympg": 0,
+        "price": 0
+    },
+    "t_test": {
+        "t_statistic": NaN,
+        "p_value": NaN
+    },
+    "simple_regression": {
+        "coefficient": 123.2206487681322,
+        "intercept": -3387.354437829905,
+        "r2": 0.6220661491156656,
+        "rmse": 2657.0895422323456
+    },
+    "multiple_regression": {
+        "coefficients": {
+            "enginesize": -3.265224257408181,
+            "curbweight": 5.734603394338873,
+            "horsepower": 62.30072529016912
+        },
+        "intercept": -8520.217635035204,
+        "r2": 0.838303028414045,
+        "rmse": 1737.9978578313007
+    }
+}
